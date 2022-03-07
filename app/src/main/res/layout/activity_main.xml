@@ -24,7 +24,6 @@
         android:layout_height="97dp"
         android:max="360"
         android:progress="1"
-        android:rotationY="0"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
