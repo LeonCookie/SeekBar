@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity() {
         var l:Float
 
 
+
         mapa = findViewById<ImageView>(R.id.imageViewObrazek)
         Suwak = findViewById<SeekBar>(R.id.seekBar)
 
