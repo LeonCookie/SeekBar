@@ -8,39 +8,38 @@
 
     <SeekBar
         android:id="@+id/seekBar2"
-        android:layout_width="227dp"
-        android:layout_height="97dp"
+        android:layout_width="270dp"
+        android:layout_height="100dp"
         android:max="360"
         android:progress="1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.591" />
+        app:layout_constraintVertical_bias="0.426" />
 
     <SeekBar
         android:id="@+id/seekBar"
-        android:layout_width="227dp"
-        android:layout_height="97dp"
+        android:layout_width="72dp"
+        android:layout_height="140dp"
         android:max="360"
         android:progress="1"
         android:rotation="270"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.85" />
+        app:layout_constraintVertical_bias="0.206" />
 
     <ImageView
         android:id="@+id/imageViewObrazek"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:rotationX="0"
+        android:layout_width="270dp"
+        android:layout_height="140dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.083"
+        app:layout_constraintVertical_bias="0.203"
         app:srcCompat="@drawable/cat" />
 </androidx.constraintlayout.widget.ConstraintLayout>

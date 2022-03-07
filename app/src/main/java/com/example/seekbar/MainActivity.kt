@@ -14,7 +14,10 @@ class MainActivity : AppCompatActivity() {
         lateinit var Suwak2: SeekBar
         lateinit var mapa: ImageView
 
+
         var a:Float
+        var b:Float
+
 
 
 
@@ -27,8 +30,8 @@ class MainActivity : AppCompatActivity() {
 
                 //mapa.setRotation(Suwak.progress.toFloat())
 
+
                 a = (progress.toFloat())
-                mapa.alpha= a
                 mapa.rotation= a.toFloat()
 
 
@@ -46,9 +49,9 @@ class MainActivity : AppCompatActivity() {
 
                 //mapa.setRotation(Suwak.progress.toFloat())
 
-                a = (progress.toFloat())
+                b = (progress.toFloat())
 
-                mapa.rotationX= a.toFloat()
+                mapa.rotationY= b.toFloat()
 
 
             }
