@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity() {
 
                 a = (progress.toFloat())
 
-                mapa.rotationY= a.toFloat()
+                mapa.rotationX= a.toFloat()
 
 
             }
